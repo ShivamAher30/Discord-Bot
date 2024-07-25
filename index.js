@@ -3,7 +3,7 @@ const client = new Client(
     { 
         intents: [GatewayIntentBits.Guilds,GatewayIntentBits.GuildMessages,GatewayIntentBits.MessageContent] 
     });
-client.login("MTIwMzI3NjQyMzgwOTIwODM4MQ.GWolug.J_zRK8HELbI2sFxgA1FZH6RPK-RL9QjdJLvlEU")
+client.login("")
 client.on('messageCreate',(message)=>{
     if(message.content.includes("task:"))
     {
